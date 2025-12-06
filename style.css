@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+
+
+input[type="text"] {
+width: 300px;
+padding: 10px;
+border:2px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[id="add"] {
+    background-color: #4caf50;
+    margin-right: 5px;
+}
+
+button[id="del"] {
+    background-color: #ff0000;
+}
+
+button[id="add"]:hover {
+    background-color: #45a040;
+}
+
+button[id="del"]:hover {
+    background-color: #c40000;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px 0;
+    width: auto;
+    min-width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+   
+}
+
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}
+
+#del {
+    margin-right: 20px;
+}
+
+button.delete-btn{
+    text-decoration: none;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    
+}
+
+button.delete-btn:hover{
+    background-color: #c40000;
+}
